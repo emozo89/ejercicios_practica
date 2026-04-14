@@ -1,0 +1,16 @@
+#Solicitu de datos
+
+num1 = int(input("Ingrese el primer numero: "))
+num2 = int(input("Ingrese el segundo numero: "))
+
+#Proceso
+
+if num1 == num2:
+    print(f"Los numeros {num1} y {num2} son iguales")
+else:
+    if num1 > num2:
+        print(f"El numero mayor es {num1}")
+    else:
+        print(f"El numero mayor es {num2}")
+    
+    
