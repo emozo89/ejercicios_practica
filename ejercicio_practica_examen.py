@@ -13,3 +13,4 @@ while i <= ciclos:
     if num > mayor:
         mayor = num
 print(f"El numero mayor es: {mayor}")
+
