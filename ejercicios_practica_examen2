@@ -1,0 +1,16 @@
+#desarrolle un programa que perimita ingresar 10 numeros positivos, si el usuario ingresa un numero negativo
+#desplegar "error de digito" y no se considera,al final entregar la suma de los positivos.
+
+i = 1
+suma = 0
+
+while i <= 10:
+    num = int(input("Ingrese un numero: "))
+    
+    if num < 1:
+        print("Error de digito")
+    else:
+        suma = suma + num
+        i = i + 1
+        
+print(f"La suma de los numeros positivos es: {suma}")
