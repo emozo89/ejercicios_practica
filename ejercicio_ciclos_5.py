@@ -8,10 +8,11 @@ negativo = []
 while contador <= 15:
     num = int(input(f"Ingrese el numero {contador}: "))
     contador = contador + 1
-    negativo.append(num)
     
     if num > 0:
         num = num * -1
+        
+    negativo.append(num)
         
 print(f"Los numeros: {negativo} son negativos")
         
