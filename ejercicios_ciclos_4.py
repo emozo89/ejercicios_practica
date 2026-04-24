@@ -19,5 +19,5 @@ while contador <= ciclos:
             negativo = negativo + 1
         else:
             neutro = neutro + 1
-                
+                            
 print(f"Los numeros positivos son {positivo} , los numeros negativos son {negativo} , los numeros neutros son {neutro} ")
